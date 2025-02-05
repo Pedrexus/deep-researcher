@@ -1,0 +1,37 @@
+{
+    "files.exclude": {
+        "**/*cache*": true
+    },
+    // "python.defaultInterpreterPath": "/bin/python",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/datasets/*": true,
+        "**/lightning_logs/*": true,
+        "**/logs/*": true
+    },
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh"
+        },
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:PATH};"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 1000,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.rulers": [88],
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true,
+
+}
